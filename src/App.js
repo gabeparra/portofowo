@@ -27,7 +27,7 @@ function App() {
       <footer className="App-footer">
         <p>
           Connect with me on LinkedIn and GitHub, or{" "}
-          <a href="mailto:gabpar49@gmail.com">send me an email</a>.
+          <a href="mailto:gabpar49@gmail.com" className="mailto-link">send me an email</a>
         </p>
       </footer>
     </div>

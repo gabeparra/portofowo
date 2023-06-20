@@ -55,6 +55,10 @@ body {
 
   animation: App-logo-spin infinite 20s linear;
 }
+.mailto-link {
+  color: #43A6C6;
+}
+
 
 @media screen and (max-width: 600px) {
   .App p {
