@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css'; // Import the CSS for the app. You need to create this file.
+import './App.css';
 
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
       </section>
 
       <footer className="App-footer">
-        <p>Connect with me on LinkedIn and GitHub.</p>
+        <p>Connect with me on LinkedIn and GitHub, or <a href="mailto:gabpar49@gmail.com">send me an email</a>.</p>
       </footer>
     </div>
   );
