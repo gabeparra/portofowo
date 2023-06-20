@@ -1,15 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import "./App.css";
-//import  from "./travis.jpg";
 
 function App() {
+  const [activeTab, setActiveTab] = useState('About');
+
   return (
     <div className="App">
       <header className="App-header">
         <h1>Welcome to Gabriel Parra's Portfolio</h1>
         <h2>Computer Science Student & IT Graduate</h2>
+
+        <div>
+          <button onClick={() => setActiveTab('About')}>About Me</button>
+          <button onClick={() => setActiveTab('Projects')}>Projects</button>
+        </div>
       </header>
 
+      {activeTab === 'About' && 
       <section className="App-intro">
         <h2>About Me</h2>
         <p>
@@ -20,11 +27,14 @@ function App() {
           </p>
         </p>
       </section>
+      }
 
+      {activeTab === 'Projects' && 
       <section className="App-projects">
         <h2>Projects</h2>
         <p>Stay tuned for my exciting projects!</p>
       </section>
+      }
 
       <footer className="App-footer">
         <p>
