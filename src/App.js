@@ -1,9 +1,10 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
+      <img src="./travis.jpg" alt="Travis Icon" className="App-icon" />
       <header className="App-header">
         <h1>Welcome to Gabriel Parra's Portfolio</h1>
         <h2>Computer Science Student & IT Graduate</h2>
@@ -12,7 +13,9 @@ function App() {
       <section className="App-intro">
         <h2>About Me</h2>
         <p>
-          Hi, I'm Gabriel, a Computer Science student and IT graduate. I have a passion for solving problems and creating solutions through coding and technology.
+          Hi, I'm Gabriel, a Computer Science student and IT graduate. I have a
+          passion for solving problems and creating solutions through coding and
+          technology.
         </p>
       </section>
 
@@ -22,11 +25,13 @@ function App() {
       </section>
 
       <footer className="App-footer">
-        <p>Connect with me on LinkedIn and GitHub, or <a href="mailto:gabpar49@gmail.com">send me an email</a>.</p>
+        <p>
+          Connect with me on LinkedIn and GitHub, or{" "}
+          <a href="mailto:gabpar49@gmail.com">send me an email</a>.
+        </p>
       </footer>
     </div>
   );
 }
-
 
 export default App;
