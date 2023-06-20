@@ -13,9 +13,11 @@ function App() {
       <section className="App-intro">
         <h2>About Me</h2>
         <p>
-          Hi, I'm Gabriel, a Computer Science student and IT graduate. I have a
-          passion for solving problems and creating solutions through coding and
-          technology.
+          Hi, I'm Gabriel, a Computer Science student and IT graduate.
+          <p>
+            I have a passion for solving problems and creating solutions through
+            coding and technology.
+          </p>
         </p>
       </section>
 
@@ -26,8 +28,10 @@ function App() {
 
       <footer className="App-footer">
         <p>
-          Connect with me on LinkedIn and GitHub, or{" "}
-          <a href="mailto:gabpar49@gmail.com" className="mailto-link">send me an email</a>
+          Connect with me on <a href="https://www.linkedin.com/in/gabeparra/">LinkedIn</a> and <a href="https://github.com/gabeparra">GitHub</a>, or{" "}
+          <a href="mailto:gabpar49@gmail.com" className="mailto-link">
+            send me an email
+          </a>
         </p>
       </footer>
     </div>
