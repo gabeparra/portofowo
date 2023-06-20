@@ -1,10 +1,10 @@
 import React from "react";
 import "./App.css";
+//import  from "./travis.jpg";
 
 function App() {
   return (
     <div className="App">
-      <img src="./travis.jpg" alt="Travis Icon" className="App-icon" />
       <header className="App-header">
         <h1>Welcome to Gabriel Parra's Portfolio</h1>
         <h2>Computer Science Student & IT Graduate</h2>

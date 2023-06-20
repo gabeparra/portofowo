@@ -50,7 +50,9 @@ body {
 .App-icon {
   position: absolute;
   top: 20px;
-  right: 20px;
+  right: 40px;
+  width: 150px; /* Set the width of the image */
+
   animation: App-logo-spin infinite 20s linear;
 }
 
