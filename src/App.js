@@ -12,7 +12,7 @@ function App() {
       <section className="App-intro">
         <h2>About Me</h2>
         <p>
-          Hi, I'm Gabriel, a Computer Science student and IT graduate. I have a passion for solving problems and creating solutions through coding and technology.
+          Hi, I'm Gabriel Parra, a Computer Science student and IT graduate. I have a passion for solving problems and creating solutions through coding and technology.
         </p>
       </section>
 
